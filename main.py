@@ -6,6 +6,7 @@ from schemas import StudentResponse, StudentCreate, StudentUpdate
 
 app = FastAPI()
 
+# Git练习：第一次修改
 
 @app.get("/students",response_model=list[StudentResponse])
 # response_model 作用：接口返回的数据,应该是一个Student对象做成的列表
